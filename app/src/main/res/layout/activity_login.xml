@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/grey_300"
+
         android:gravity="center_vertical">
 
         <LinearLayout
@@ -41,6 +42,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/logo"
                 android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_logo"
                 android:layout_marginBottom="8dp"/>
 
             <EditText
@@ -104,7 +106,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account ?"
+                android:text="@string/don_t_have_an_account"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:textColor="@color/authui_inputTextColorDisabled"
@@ -113,7 +115,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign Up"
+                android:text="@string/sign_up"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="8dp"
@@ -135,7 +137,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already have an account ?"
+                android:text="@string/already_have_an_account"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:textColor="@color/authui_inputTextColorDisabled"
@@ -144,10 +146,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login In"
+                android:text="@string/login_in"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
                 android:textColor="@color/authui_inputTextColorDark"
                 android:textStyle="bold"
                 />
@@ -160,7 +163,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Or"
+        android:text="@string/or"
         android:textSize="22sp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="16dp"

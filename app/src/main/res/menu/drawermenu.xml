@@ -3,20 +3,20 @@
 
 
 
-    <item android:title="Rate"
+    <item android:title="@string/rate"
           android:id="@+id/nav_item_rate"
         android:icon="@drawable/draft"
           />
 
-    <item android:title="Share"
+    <item android:title="@string/share"
           android:id="@+id/nav_item_share"
           android:icon="@drawable/senta"/>
 
-    <item android:title="Feedback and Help"
+    <item android:title="@string/feedback_and_help"
           android:id="@+id/nav_item_feeedback"
          android:icon="@drawable/inbox"/>
 
-    <item android:title="About Us"
+    <item android:title="@string/about"
         android:id="@+id/nav_item_about_us"
         android:icon="@drawable/help"/>
 

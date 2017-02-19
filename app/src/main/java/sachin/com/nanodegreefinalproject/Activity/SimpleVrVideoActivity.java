@@ -362,7 +362,7 @@ private TextView mSignInTextView;
       // An error here is normally due to being unable to decode the video format.
       loadVideoStatus = LOAD_VIDEO_STATUS_ERROR;
       Toast.makeText(
-          SimpleVrVideoActivity.this, "Error loading video: " + errorMessage, Toast.LENGTH_LONG)
+          SimpleVrVideoActivity.this, getString(R.string.error_loading_video) + errorMessage, Toast.LENGTH_LONG)
           .show();
       Log.e(TAG, "Error loading video: " + errorMessage);
     }

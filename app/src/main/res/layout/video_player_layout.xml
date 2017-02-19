@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#86000000"
+            android:contentDescription="@string/background_tint"
             />
 
         <ImageView
@@ -26,7 +27,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="32dp"
             android:background="@drawable/logo"
-            android:contentDescription="App Logo"
+            android:contentDescription="@string/share"
 
             />
         <TextView
@@ -50,7 +51,7 @@
                android:id="@+id/create_acc_buttonView"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="Create an Account"
+               android:text="@string/create_an_account"
                android:gravity="center"
                android:layout_margin="8dp"
                android:padding="16dp"
@@ -62,7 +63,7 @@
                 android:id="@+id/sign_in_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sign In"
+                android:text="@string/sign_in"
                 android:textColor="@color/grey_100"
                 android:gravity="center"
                 android:padding="4dp"
@@ -92,6 +93,7 @@
             android:background="@android:color/transparent"
             android:paddingStart="0dp"
             android:paddingTop="4dp"
+            android:contentDescription="@string/volume_toogle_button"
             android:src="@drawable/volume_on"/>
     </LinearLayout>
     <TextView
@@ -100,7 +102,7 @@
         android:layout_height="wrap_content"
         android:paddingEnd="32dp"
         android:paddingStart="32dp"
-        android:text="Loading Video..."
+        android:text="@string/loading_video"
         android:textSize="@dimen/caption_text_size"
         android:visibility="gone"/>
 
