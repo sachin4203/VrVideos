@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622392799123",
+    "firebase_url": "https://vrvideos-26aac.firebaseio.com",
+    "project_id": "vrvideos-26aac",
+    "storage_bucket": "vrvideos-26aac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622392799123:android:da5dd0b6dab62892",
+        "android_client_info": {
+          "package_name": "sachin.com.nanodegreefinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622392799123-c047a049dfe4h25akj8jpkboqe34pcub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sachin.com.nanodegreefinalproject",
+            "certificate_hash": "8E9E8FD7C37E64C9C98AB1D49B48D806868F222C"
+          }
+        },
+        {
+          "client_id": "622392799123-j9ol9c6phi72tcjps1f5n3hdnn8hcufi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_J9OdCLqiXPRKyTAnt5JwtbKAUFlTXOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622392799123-j9ol9c6phi72tcjps1f5n3hdnn8hcufi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

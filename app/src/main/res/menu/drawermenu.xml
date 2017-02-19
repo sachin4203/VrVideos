@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Rate"
+          android:id="@+id/nav_item_rate"
+        android:icon="@drawable/draft"
+          />
+
+    <item android:title="Share"
+          android:id="@+id/nav_item_share"
+          android:icon="@drawable/senta"/>
+
+    <item android:title="Feedback and Help"
+          android:id="@+id/nav_item_feeedback"
+         android:icon="@drawable/inbox"/>
+
+    <item android:title="About Us"
+        android:id="@+id/nav_item_about_us"
+        android:icon="@drawable/help"/>
+
+
+</menu>

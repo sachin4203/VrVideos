@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#039BE5</color>
+        <color name="colorPrimaryDark">#0288D1</color>
+        <color name="colorAccent">#4CAF50</color>
+        <color name="orange">#8BC34A</color>
+        <color name="holo_orange_dark">#689f38</color>
+
+        <color name="grey_100">#F5F5F5</color>
+        <color name="grey_300">#eeeeee</color>
+        <color name="grey_500">#e0e0e0</color>
+
+        <color name="black">#000</color>
+        <color name="primaryGreen">#8bc34a</color>
+        <color name="primaryDarkGreen">#8bc34a</color>
+        <color name="white">#FFF</color>
+        <color name="textDark">#222</color>
+        <color name="textLight">#616161</color>
+         <color name="tabIndicator">#72a13b</color>
+        <color name="lightTextGreen">#dcedc8</color>
+        <color name="transparent">#d4000000</color>
+
+</resources>

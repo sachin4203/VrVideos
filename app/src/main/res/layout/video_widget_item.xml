@@ -1,0 +1,22 @@
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/vid_title"
+            android:textColor="#f5f5f5"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
