@@ -63,7 +63,7 @@ public class WidgetDataProvider implements RemoteViewsFactory {
         Bundle extras = new Bundle();
         extras.putString(VideoColumns.TITLE, mTitle.get(position).toString());
         extras.putString(VideoColumns.DESCRIPTION, mDescription.get(position).toString());
-        extras.putString(VideoColumns.VIDEOID, "https://youtube.com/watch?v=" + mVideoId.get(position).toString());
+        extras.putString(VideoColumns.VIDEOID, mVideoId.get(position).toString());
         extras.putString(VideoColumns.URLLARGE, mImage.get(position).toString());
 
         i.putExtras(extras);
