@@ -1,12 +1,12 @@
 package sachin.com.nanodegreefinalproject.Activity;
 
+import android.app.Activity;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
@@ -20,7 +20,7 @@ import at.huber.youtubeExtractor.YouTubeUriExtractor;
 import at.huber.youtubeExtractor.YtFile;
 import sachin.com.nanodegreefinalproject.R;
 
-public class SampleDownloadActivity extends AppCompatActivity {
+public class SampleDownloadActivity extends Activity {
 
     private static String youtubeLink;
 
