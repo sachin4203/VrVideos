@@ -63,8 +63,8 @@
 
     <style name="AppThemeMainAcitivity" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/orange</item>
-        <item name="colorPrimaryDark">@color/holo_orange_dark</item>
+        <item name="colorPrimary">@color/lightTextGreen</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
 
     </style>
 

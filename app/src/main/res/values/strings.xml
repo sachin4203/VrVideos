@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">VR Infinite Videos</string>
+    <string name="app_name"> VR Infinite Videos 360</string>
     <string name="facebook_app_id">179439545871924</string>
 
     <string name="error_no_yt_link">Not a valid YouTube link!</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6750534447542827/7629599597</string>
 <string name="about_us">The app is a collection of the very best virtual reality videos from a variety of categories, including Travel, Outdoors, Sports, Lifestyle, Technology, Music, Education, Aerial, Relaxation, Movies, Cars, Fashion, Design, Fitness, Food, Gaming, and many more.
 Using both touch panning and the movement of your phone, you can experience 360 video content in the palm of your hand without any VR headset, and even pop in to VR mode at the touch of a button to slide your phone into tray-based headsets like Google Cardboard.
 </string>
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_app_id">ca-app-pub-6750534447542827~6152866398</string>
     <string name="app_usage_info">Move your phone to \n experience  360 degree content</string>
     <string name="network_toast">Oops ! No internet Connection .</string>
     <string name="vid_title">Video Title</string>
